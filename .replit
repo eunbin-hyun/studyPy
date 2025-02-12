@@ -1,4 +1,4 @@
-entrypoint = "main.py"
+entrypoint = "PyGrammer/pyGrammer4.py"
 modules = ["python-3.11"]
 
 [nix]
