@@ -1,4 +1,4 @@
-entrypoint = "PyGrammer/pyGrammer4.py"
+entrypoint = "Algorithm/Implementaion/exhaustiveSearch.py"
 modules = ["python-3.11"]
 
 [nix]
