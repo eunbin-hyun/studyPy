@@ -1,4 +1,4 @@
-entrypoint = "Algorithm/Implementaion/exhaustiveSearch.py"
+entrypoint = "Algorithm/Sort/sort_problem.py"
 modules = ["python-3.11"]
 
 [nix]
