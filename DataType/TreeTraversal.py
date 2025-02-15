@@ -3,8 +3,8 @@
 class Node:
   def __init__(self, data, left_node, right_node):
     self.data = data
-    self.left = left_node
-    self.right = right_node
+    self.left_node = left_node
+    self.right_node = right_node
 
 # 전위 순회
 def pre_order(node):
