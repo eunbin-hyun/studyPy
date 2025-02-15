@@ -1,4 +1,4 @@
-entrypoint = "Algorithm/Sort/sort_problem.py"
+entrypoint = "DataType/TreeTraversal.py"
 modules = ["python-3.11"]
 
 [nix]
