@@ -1,3 +1,5 @@
+# 큐: 선입선출 구조
+# 리스트로 큐를 다루는 경우 시간복잡도가 높음 -> deque 라이브러리 사용
 from collections import deque
 
 # 큐 구현을 위해 deque 라이브러리 사용
