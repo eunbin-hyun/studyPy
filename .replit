@@ -1,4 +1,4 @@
-entrypoint = "Part2_Algorithm/Implementation/Greedy/greedy_2-1.py"
+entrypoint = "Part2_Algorithm/Search/BFS/BFS_ex.py"
 modules = ["python-3.11"]
 
 [nix]
