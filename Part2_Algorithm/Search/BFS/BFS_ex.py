@@ -32,7 +32,7 @@ n, m = map(int, input().split())
 # 2차원 리스트의 맵 정보 입력받기
 graph = []
 for i in range(n):
-  graph.append(list(map(int, input())))
+  graph.append(list(map(int, input().split())))
 
 # 이동할 네 가지 방향 정의 (상, 하, 좌, 우)
 dx = [-1, 1, 0, 0]
