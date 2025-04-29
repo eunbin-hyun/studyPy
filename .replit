@@ -1,4 +1,4 @@
-entrypoint = "Part2_Algorithm/Search/BFS/BFS_ex.py"
+entrypoint = "Part2_Algorithm/Search/Binary_Search/binary_1.py"
 modules = ["python-3.11"]
 
 [nix]
