@@ -1,4 +1,4 @@
-entrypoint = "Part2_Algorithm/Search/Binary_Search/binary_1.py"
+entrypoint = "Part2_Algorithm/Dynamic_programing/Dynamic_exam/Dynamic_ant.py"
 modules = ["python-3.11"]
 
 [nix]
