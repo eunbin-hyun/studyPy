@@ -2,17 +2,13 @@
 # 0이나 1은 더하기, 나머지는 곱하기
 
 s = input()
-k = []
 
-for i in s:
-    k.append(i)
-
-result = int(k[0])
-for i in range(1, len(k)):
-    k[i] = int(k[i])
-    if result <= 1 or k[i] <= 1:
-        result += k[i]
+result = int(s[0])
+for i in range(1, len(s)):
+    num = int(s[i])
+    if result <= 1 or num <= 1:
+        result += num
     else:
-        result *= k[i]
+        result *= num
 
 print(result)

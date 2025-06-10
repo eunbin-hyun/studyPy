@@ -1,19 +1,16 @@
 # 그리디1: 모험가 길드
 
 n = int(input())
-k = list(map(int, input().split()))
+data = list(map(int, input().split()))
+data.sort()
 
-k.sort()
 result = 0
-m = []
+count = 0
 
-for i in range(len(k)):
-    count = k[i] -1
-    count -= len(m)
-    if count == 0:
+for i in data:
+    count += 1
+    if count >= i:
         result += 1
-        m = []
-    else:
-        m.append(k[i])
+        count = 0
 
 print(result)
