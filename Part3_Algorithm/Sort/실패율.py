@@ -15,9 +15,9 @@ for i in range(1,N+1):
     else:
         fail = count / length
 
-    answer.append((i, fail))
+    answer.append((i, fail)) # 이 때 i에 대해 오름차순으로 정렬되어있음
     length -= count
 
-answer = sorted(answer, key=lambda t: t[1], reverse=True)
+answer = sorted(answer, key=lambda t: t[1], reverse=True) # 실패율에 대해 내림차순으로 정렬
 answer = [i[0] for i in answer]
 print(answer)
